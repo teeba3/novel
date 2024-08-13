@@ -1,0 +1,118 @@
+.list{
+ width: 30%; 
+ height: 30%;
+  color: rgb(236, 236, 236);
+ 
+display: block;
+margin: auto;
+text-align: center;
+margin-top: 10%;
+margin-bottom: 10%;
+
+
+}
+
+
+.list a{display: inline;
+text-decoration: none;
+padding: 10px 10px;
+
+}
+
+.list .active{
+
+background-color: rgb(249, 255, 170);
+
+}
+.list a:not(.active):hover{
+
+background-color: rgba(75, 75, 75, 0.13);
+
+}
+
+h1{
+  text-align: center;
+  
+
+}
+h1::first-letter{font-size: larger;}
+
+p{font-size:large;
+  font-style: oblique;
+}
+
+p:hover{
+  background-color: rgba(148, 144, 113, 0.671);
+  font-size: x-large;
+
+}
+
+body{background-color: rgba(145, 143, 56, 0.438);}
+
+.dropdown{display:inline;
+
+margin-left: 3%;
+}
+
+.dropdown button{
+  
+  font-style: oblique;
+  font-size: x-large;
+  text-shadow: 2px 3px 4px rgba(182, 180, 180, 0.733);
+  padding: 15px 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.377);
+  cursor: pointer;
+
+}
+.dropdown a{
+   color: black;
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.dropdown .content{
+  margin-left: 1%;
+  display: none;
+  width: 190px;
+  background-color: rgba(247, 247, 247, 0.664);
+  box-shadow: 10px 10px 15px rgba(68, 68, 68, 0.493);
+}
+
+.dropdown a:hover{
+  background-color: rgba(75, 74, 74, 0.336);
+  color: rgb(255, 255, 255);
+ 
+}
+
+.dropdown:hover .content{
+  display: block;
+}
+
+.dropdown button:hover{
+  
+  background-color: rgba(161, 161, 161, 0.445);
+  color: white;
+  border:solid 1px gray;
+ 
+}
+
+#main-body{
+
+  margin-top: 05%;
+  
+background-image:url(pic.jpeg) ;
+
+height: 100%;
+
+}
+
+footer{
+  background-color: rgba(117, 117, 117, 0.315);
+  position: fixed;
+  bottom: 0%;
+  color: aliceblue;
+  width: 100%;
+  padding: 20px 10px;
+}
+
